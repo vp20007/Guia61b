@@ -1,7 +1,7 @@
 img {width:3cm;height:3cm;}
 table {width:80%;margin:auto;color: rgb(13, 1, 34);}
 th#price {cursor:pointer;}
-li {color:blue;}
+li {color:red;}
 /*si chequea muestra los productos sin cheque desaparecen los productos*/
 input#c1:checked ~ table tbody tr.c1 { display: table-row; }
 input#c1:not(checked) ~ table tbody tr.c1 { display: none; }
